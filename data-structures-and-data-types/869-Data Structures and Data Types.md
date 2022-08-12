@@ -1,1 +1,60 @@
-<p><iframe allowfullscreen width="100%" height="569" class="google-slides-iframe" frameborder="0" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vRapSI43oTdpusz_ftPgnHQmMKHxfSdj_Ku5pKjF0cNRYicENtbQmgES441g4b1S-klKivQN90Ey-kG/embed?start=false&amp;loop=false&amp;delayms=3000"></iframe></p>
+* If you’re learning Python from multiple sources, you might encounter the terms data structures and data types being used interchangeably.
+* **Definition**: A data structure is a general computer science concept. Its definition reads as follows on Wikipedia:
+
+> **Data structure is a data organization, management, and storage format that enables efficient access and modification.** More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
+
+* On the other hand, Data type is a concept specific to a programming language. In a way, it is a concrete implementation of a data structure in a particular programming language (be it Python or any other language).
+* **The actual definition of what constitutes a "type" varies among programming languages.** Talking about Python, there are basic data types like int, float, string, etc. You can use the built-in types like list, set, etc., which we will cover in this session.
+* Calling these data types as data structures won’t be wrong because there is no major difference between the two in Python.
+
+
+
+
+
+
+
+### Data Types in Python
+
+*   Before we proceed to discuss what data types in Python are, there are some basic questions that we would discuss. **What is data?** 
+* Let’s say you are going to meet a friend at her office. When you visit her office, the security guard asks you to enter the register before you enter the office. A typical entry register asks for the following information –
+
+
+
+| **Visitor's name** | **Visitor's phone number** | **Visitor's address** | **Entry time** |
+| ------------------ | ---------------------- | --------------------- | ------------------- |
+| **Karen** | **32 000 000** | **Leuven** | **8:30 AM** |
+
+* The above information that you just provided is data.
+* We see that the data entered has different varieties:
+  * Some are English letters,
+  * Some are numerical digits, and
+  * There are some special characters, dash (-) and colon ( : ).
+  * In this example, our data is divided into 4 categories – name, phone number, address, and time.
+* This **categorization of data, based on its characteristics & our needs, is called data types.**
+* Some of the data types in python include:
+    * Integer: whole numbers, positive or negative numbers. E.g., 100.
+    * Float: Floating-point numbers are real numbers, rational or irrational. In most cases, this means numbers with decimal parts. Example: 123.45.
+    * String: Strings are sequences of characters, or text, enclosed in quotes. Example: "any text", “Karen”.
+* For further reading **about operators and data types**, visit: https://www.dummies.com/programming/python/python-all-in-one-for-dummies-cheat-sheet/
+* For practice and different data type examples, visit: https://www.w3schools.com/python/python\_datatypes.asp
+
+
+
+
+
+
+
+### Getting the Data Type
+
+You can get the data type of any object by using the type( ) function:
+
+* **Numerical Types**: int (integer), float (decimal)
+* **Text Type**: str (string)
+* **Boolean Type**: bool (True or False)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_3d533f4f681f408ca628cd0594978900.png)

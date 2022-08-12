@@ -138,6 +138,8 @@ x \* y  # multiplication
 
 * To learn more about operators, visit:  
 https://www.w3schools.com/python/python_operators.asp
+* Cheat Sheet:  
+https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-hello-world/cheatsheet
 
 ## Variables
 
